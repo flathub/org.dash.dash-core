@@ -34,16 +34,16 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://github.com/dashpay/dash/releases/download/v22.0.0/dashcore-22.0.0-x86_64-linux-gnu.tar.gz",
-                    "sha256": "875196fff6044cc1c713317371993c6e71c0994cbc37b8a2c57dd7616468f20f"
+                    "url": "https://github.com/dashpay/dash/releases/download/v22.1.0/dashcore-22.1.0-x86_64-linux-gnu.tar.gz",
+                    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
                 },
                 {
                     "type": "archive",
                     "only-arches": [
                         "aarch64"
                     ],
-                    "url": "https://github.com/dashpay/dash/releases/download/v22.0.0/dashcore-22.0.0-aarch64-linux-gnu.tar.gz",
-                    "sha256": "61efec91f2d382277978f9d636291044cd8ee02e3f492d76dcb18e617dfd5048"
+                    "url": "https://github.com/dashpay/dash/releases/download/v22.1.0/dashcore-22.1.0-aarch64-linux-gnu.tar.gz",
+                    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
                 }
             ]
         },
