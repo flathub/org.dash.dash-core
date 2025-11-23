@@ -66,8 +66,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://raw.githubusercontent.com/dashpay/dash/19227b1de9118d899ffcaf7372a64635a586a67b/contrib/flatpak/org.dash.dash-core.metainfo.xml",
-                    "sha256": "6b58fddd8d7dbc89fe3f83801fc50150d922edecaf4714749b2d5d7f8d375794"
+                    "url": "https://raw.githubusercontent.com/dashpay/dash/77bdf84ea8a8a1954fc99f68e5146aae5193da14/contrib/flatpak/org.dash.dash-core.metainfo.xml",
+                    "sha256": "8e18d16f119ab0198790aced092ea8bc77be7efe11ebeb2c185e495a63e169e7"
                 },
                 {
                     "type": "file",
