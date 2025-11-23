@@ -1,8 +1,8 @@
 {
     "id": "org.dash.dash-core",
-    "runtime": "org.freedesktop.Platform",
-    "sdk": "org.freedesktop.Sdk",
-    "runtime-version": "24.08",
+    "runtime": "org.kde.Platform",
+    "sdk": "org.kde.Sdk",
+    "runtime-version": "5.15-24.08",
     "command": "dash-entrypoint.sh",
     "finish-args": [
         "--socket=wayland",
