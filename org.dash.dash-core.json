@@ -34,16 +34,16 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://github.com/dashpay/dash/releases/download/v23.1.7/dashcore-23.1.7-x86_64-linux-gnu.tar.gz",
-                    "sha256": "4515634a76054a3adb5a2f3aaae150305737bc416c08568efb1b434050316213"
+                    "url": "https://github.com/dashpay/dash/releases/download/v23.1.8/dashcore-23.1.8-x86_64-linux-gnu.tar.gz",
+                    "sha256": "e664cad0fe860afa3d005be0db1eb06da598f2f83421083afae77191e3115825"
                 },
                 {
                     "type": "archive",
                     "only-arches": [
                         "aarch64"
                     ],
-                    "url": "https://github.com/dashpay/dash/releases/download/v23.1.7/dashcore-23.1.7-aarch64-linux-gnu.tar.gz",
-                    "sha256": "1121580ed2172590284c642287316283c00306e517b236570ce1fc102bc649f5"
+                    "url": "https://github.com/dashpay/dash/releases/download/v23.1.8/dashcore-23.1.8-aarch64-linux-gnu.tar.gz",
+                    "sha256": "b96fef477ea01f5c47cc3d3f7de3fdd0bc8cc86f64660f720e8206d889604523"
                 }
             ]
         },
@@ -61,13 +61,13 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://raw.githubusercontent.com/dashpay/dash/v23.1.7/contrib/debian/dash-qt.desktop",
+                    "url": "https://raw.githubusercontent.com/dashpay/dash/v23.1.8/contrib/debian/dash-qt.desktop",
                     "sha256": "59b6125eb0732137026d33e1e61dc8b84e20f90baba176cc84899c41cf8201df"
                 },
                 {
                     "type": "file",
-                    "url": "https://raw.githubusercontent.com/dashpay/dash/v23.1.7/contrib/flatpak/org.dash.dash-core.metainfo.xml",
-                    "sha256": "76aac0eee61ec2d41572d5fe9dd5fc5ca99ca3675aa8c3dc5cf65f86b3efd1b6"
+                    "url": "https://raw.githubusercontent.com/dashpay/dash/v23.1.8/contrib/flatpak/org.dash.dash-core.metainfo.xml",
+                    "sha256": "ecde624c16ec73820ceb66fab9ff559ad367eccaddcef0d6ed92a5cf142928a8"
                 },
                 {
                     "type": "file",
@@ -75,7 +75,7 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://raw.githubusercontent.com/dashpay/dash/v23.1.7/share/pixmaps/dash-hicolor-scalable.svg",
+                    "url": "https://raw.githubusercontent.com/dashpay/dash/v23.1.8/share/pixmaps/dash-hicolor-scalable.svg",
                     "sha256": "1a403de47c676dce5852d4f5facef22312edf28707ba4ae3d669ea208301aba7"
                 },
                 {
