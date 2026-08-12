@@ -6,7 +6,6 @@
     "command": "dash-entrypoint.sh",
     "finish-args": [
         "--socket=x11",
-        "--socket=pulseaudio",
         "--device=dri",
         "--share=ipc",
         "--share=network",
