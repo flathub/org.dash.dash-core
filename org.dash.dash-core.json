@@ -35,7 +35,14 @@
                         "x86_64"
                     ],
                     "url": "https://github.com/dashpay/dash/releases/download/v24.0.3/dashcore-24.0.3-x86_64-linux-gnu.tar.gz",
-                    "sha256": "85fb5bb7431b6fb1b62146dee2ed5b554cf0ffda2c7f7734cfaed406a5683cf3"
+                    "sha256": "85fb5bb7431b6fb1b62146dee2ed5b554cf0ffda2c7f7734cfaed406a5683cf3",
+                    "x-checker-data": {
+                        "type": "github",
+                        "repo": "dashpay/dash",
+                        "tag-pattern": "^v([0-9.]+)$",
+                        "asset-name": "dashcore-${version}-x86_64-linux-gnu.tar.gz",
+                        "update-group": "dash-core"
+                    }
                 },
                 {
                     "type": "archive",
@@ -43,7 +50,14 @@
                         "aarch64"
                     ],
                     "url": "https://github.com/dashpay/dash/releases/download/v24.0.3/dashcore-24.0.3-aarch64-linux-gnu.tar.gz",
-                    "sha256": "d8f303fc4ce1b9c4dd6db7da09e1c3e8af2fd659b7c3b80a46506ea9a0efbb76"
+                    "sha256": "d8f303fc4ce1b9c4dd6db7da09e1c3e8af2fd659b7c3b80a46506ea9a0efbb76",
+                    "x-checker-data": {
+                        "type": "github",
+                        "repo": "dashpay/dash",
+                        "tag-pattern": "^v([0-9.]+)$",
+                        "asset-name": "dashcore-${version}-aarch64-linux-gnu.tar.gz",
+                        "update-group": "dash-core"
+                    }
                 }
             ]
         },
@@ -62,12 +76,24 @@
                 {
                     "type": "file",
                     "url": "https://raw.githubusercontent.com/dashpay/dash/v24.0.3/contrib/debian/dash-qt.desktop",
-                    "sha256": "59b6125eb0732137026d33e1e61dc8b84e20f90baba176cc84899c41cf8201df"
+                    "sha256": "59b6125eb0732137026d33e1e61dc8b84e20f90baba176cc84899c41cf8201df",
+                    "x-checker-data": {
+                        "type": "json",
+                        "url": "https://api.github.com/repos/dashpay/dash/releases/latest",
+                        "version-query": ".tag_name | sub(\"^v\"; \"\")",
+                        "url-query": "\"https://raw.githubusercontent.com/dashpay/dash/\" + .tag_name + \"/contrib/debian/dash-qt.desktop\""
+                    }
                 },
                 {
                     "type": "file",
                     "url": "https://raw.githubusercontent.com/dashpay/dash/v24.0.3/contrib/flatpak/org.dash.dash-core.metainfo.xml",
-                    "sha256": "d6411a5919b882f895de9042797df083455a94e97a72ee9b02ef31702f8d98d0"
+                    "sha256": "d6411a5919b882f895de9042797df083455a94e97a72ee9b02ef31702f8d98d0",
+                    "x-checker-data": {
+                        "type": "json",
+                        "url": "https://api.github.com/repos/dashpay/dash/releases/latest",
+                        "version-query": ".tag_name | sub(\"^v\"; \"\")",
+                        "url-query": "\"https://raw.githubusercontent.com/dashpay/dash/\" + .tag_name + \"/contrib/flatpak/org.dash.dash-core.metainfo.xml\""
+                    }
                 },
                 {
                     "type": "file",
@@ -76,7 +102,13 @@
                 {
                     "type": "file",
                     "url": "https://raw.githubusercontent.com/dashpay/dash/v24.0.3/share/pixmaps/dash-hicolor-scalable.svg",
-                    "sha256": "1a403de47c676dce5852d4f5facef22312edf28707ba4ae3d669ea208301aba7"
+                    "sha256": "1a403de47c676dce5852d4f5facef22312edf28707ba4ae3d669ea208301aba7",
+                    "x-checker-data": {
+                        "type": "json",
+                        "url": "https://api.github.com/repos/dashpay/dash/releases/latest",
+                        "version-query": ".tag_name | sub(\"^v\"; \"\")",
+                        "url-query": "\"https://raw.githubusercontent.com/dashpay/dash/\" + .tag_name + \"/share/pixmaps/dash-hicolor-scalable.svg\""
+                    }
                 },
                 {
                     "type": "file",
